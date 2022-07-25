@@ -1,0 +1,12 @@
+import mongoose, { Schema } from 'mongoose';
+
+const {{capitalize name}}Schema = new Schema(
+  {
+    text: String,
+  },
+  { timestamps: true },
+);
+
+const {{capitalize name}}Model = mongoose.model('{{name}}s', {{capitalize name}}Schema);
+
+export default {{capitalize name}}Model;
