@@ -3,5 +3,6 @@ import { getExampleController } from './controllers/example.controller';
 
 const exampleRouter = Router();
 
-exampleRouter.get('/', getExampleController);
+exampleRouter.get('/core/', getExampleController);
+exampleRouter.get('/feat/', getExampleController);
 export default exampleRouter;
